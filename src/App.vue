@@ -1,6 +1,7 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <main id="content">
+    <img class="logo" alt="Logo" src="./assets/chiroyce.svg" />
+  </main>
 </template>
 
 <script setup>
@@ -10,13 +11,21 @@ import HelloWorld from './components/HelloWorld.vue'
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
 
+<style scoped>
+  img.logo {
+    position: absolute;
+    top: 50%;
+    left: 30vw;
+    transform: translateY(-50%);
+    height: 50vh; /* https://illogicalapple.com/blog/css-vh-bugs */
+  }
+</style>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  main#content {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
 </style>
