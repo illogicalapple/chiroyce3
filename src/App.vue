@@ -16,16 +16,16 @@
   img.logo {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: min(30%, 100px);
     transform: translateY(-50%);
     width: 30vh; /* https://illogicalapple.com/blog/css-vh-bugs */
   }
   div.bio {
     position: absolute;
     top: 50%;
-    left: calc(60% + 30vh);
+    left: calc(min(30%, 100px) + 30vh);
     transform: translateY(-50%);
-    width: calc(90% - (60% + 30vh));
+    width: calc(90% - (min(30%, 100px) + 10% + 30vh));
   }
 </style>
 
