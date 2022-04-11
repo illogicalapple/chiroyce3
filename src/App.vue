@@ -1,10 +1,12 @@
 <template>
   <main id="content">
     <div class="stuf">
-      <img class="logo" alt="Logo" src="./assets/chiroyce.svg" />
-      <div class="bio" or-something>
-        <h1>Chiroyce</h1>
-        <p>lorem ipsum dolor sit amet</p>
+      <div style="left: 50%; position: absolute; transform: translateX(-50%);">
+        <img class="logo" alt="Logo" src="./assets/chiroyce.svg" />
+        <div class="bio" or-something>
+          <h1>Chiroyce</h1>
+          <p>lorem ipsum dolor sit amet</p>
+        </div>
       </div>
     </div>
   </main>
