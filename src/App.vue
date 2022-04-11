@@ -1,9 +1,11 @@
 <template>
   <main id="content">
-    <img class="logo" alt="Logo" src="./assets/chiroyce.svg" />
-    <div class="bio" or-something>
-      <h1>Chiroyce</h1>
-      <p>lorem ipsum dolor sit amet</p>
+    <div class="stuf">
+      <img class="logo" alt="Logo" src="./assets/chiroyce.svg" />
+      <div class="bio" or-something>
+        <h1>Chiroyce</h1>
+        <p>lorem ipsum dolor sit amet</p>
+      </div>
     </div>
   </main>
 </template>
@@ -14,18 +16,11 @@
 
 <style scoped>
   img.logo {
-    position: absolute;
-    top: 50%;
-    left: min(20%, 100px);
-    transform: translateY(-50%);
     width: 30vh; /* https://illogicalapple.com/blog/css-vh-bugs */
+    margin-right: 10vw;
   }
   div.bio {
-    position: absolute;
-    top: 50%;
-    left: calc(min(30%, 100px) + 30vh);
-    transform: translateY(-50%);
-    width: calc(90% - (min(20%, 100px) + 10% + 30vh));
+    font-size: 1.4em;
   }
 </style>
 
