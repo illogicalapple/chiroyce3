@@ -16,7 +16,7 @@
   img.logo {
     position: absolute;
     top: 50%;
-    left: min(30%, 100px);
+    left: min(20%, 100px);
     transform: translateY(-50%);
     width: 30vh; /* https://illogicalapple.com/blog/css-vh-bugs */
   }
@@ -25,7 +25,7 @@
     top: 50%;
     left: calc(min(30%, 100px) + 30vh);
     transform: translateY(-50%);
-    width: calc(90% - (min(30%, 100px) + 10% + 30vh));
+    width: calc(90% - (min(20%, 100px) + 10% + 30vh));
   }
 </style>
 
