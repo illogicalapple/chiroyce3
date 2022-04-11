@@ -18,9 +18,16 @@
   img.logo {
     width: 30vh; /* https://illogicalapple.com/blog/css-vh-bugs */
     margin-right: 10vw;
+    float: left;
   }
   div.bio {
     font-size: 1.4em;
+  }
+  div.stuf {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>
 
