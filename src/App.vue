@@ -22,12 +22,17 @@
   }
   div.bio {
     font-size: 1.4em;
+    display: inline-block;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
   }
   div.stuf {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 100vw;
   }
 </style>
 
